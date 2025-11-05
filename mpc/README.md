@@ -3,8 +3,8 @@
 Your task is to implement a simple MPC voting application.
 
 You are 2 of your friends are trying to have a secret ballot vote to determine where to go to dinner,
-the options are: "DuneBrothers", "AleppoSweets", "GiftHorse", "BayberryGarden"
-(yes, these are the best restaurants in Providence...)
+the options are: "Oleana", "Cuttys", "Sarma", "NeptuneOyster"
+(yes, these are the best restaurants in Boston...)
 
 Your implementation goes in `party.js`. The file contains more instructions.
 
@@ -24,9 +24,9 @@ Run the server first using `node server.js`
 When you see a message indicating the server is listening, you can run the parties.
 ```
 # Run each command in a separate terminal window
-node party.js BayberryGarden
-node party.js BayberryGarden
-node party.js AleppoSweets
+node party.js Oleana
+node party.js Oleana
+node party.js Cuttys
 ```
 
 When you run each party, it connects to the server, and then waits for all other parties

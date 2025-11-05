@@ -1,4 +1,4 @@
-const OPTIONS = ["DuneBrothers", "AleppoSweets", "GiftHorse", "BayberryGarden"];
+const OPTIONS = ["Oleana", "Cuttys", "Sarma", "NeptuneOyster"];
 
 // What to vote for is a command line argument
 const voteFor = process.argv[2];
@@ -41,7 +41,7 @@ async function start(jiffClient) {
   
       // Reveal the total vote tally for this option and print it.
       // Look at https://github.com/multiparty/jiff-standalone-example/blob/a4aa88d562024b224dfef290a019b3c1dff33e10/party.js#L45
-      const output = "?";
+      const output = '?';
       console.log(OPTIONS[i], output);
   }
   
